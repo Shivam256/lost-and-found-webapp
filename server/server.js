@@ -8,7 +8,7 @@ import userRoutes from "./routes/user.routes.js";
 import cors from "cors";
 
 const app = express();
-const port = process.env.PORT;
+const port = process.env.PORT || process.env.DEV_PORT;
 
 import "./db/conn.js";
 
