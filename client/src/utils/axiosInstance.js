@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-    baseURL:'http://localhost:5000'
+    baseURL:'https://lostandfound-api.herokuapp.com'
+    //baseUrl:'http://localhost:5000'
 })
 
 
